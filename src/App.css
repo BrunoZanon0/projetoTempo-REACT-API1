@@ -1,5 +1,70 @@
+@font-face {
+  font-family: 'roboto_family';
+  src: url(components/font/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'roboto_light';
+  src: url(components/font/Roboto-Light.ttf);
+}
+
+*{
+  font-weight: bold;
+  font-family: 'roboto_family',Arial, Helvetica, sans-serif;
+}
+
+.main{
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+  width: 20em;
+}
+
+input{
+  width: 20em;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.089);
+  font-family: 'roboto_light',Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.555);
+}
+
+.water{
+  font-family: 'roboto_light',Arial, Helvetica, sans-serif;
+  background-color: rgb(185, 230, 252);
+  color: rgba(40, 40, 255, 0.568);
+  padding: .5em;
+  border-radius: 10px;
+}
+
+.seco{
+  font-family: 'roboto_light',Arial, Helvetica, sans-serif;
+  background-color: rgba(202, 204, 88, 0.459);
+  color: #6d461a;
+  padding: .5em;
+  border-radius: 10px;
+}
+
+.trueOrFalse img{
+  width: 1em;
+}
+
+
+
+.false{
+  background-color: rgb(209, 209, 209);
+  font-family: 'roboto_light',Arial, Helvetica, sans-serif;
+  padding: .5em .2em;
+  border-radius: 10px;
+}
+
 .App {
-  text-align: center;
+  text-align: justify;
 }
 
 .App-logo {
